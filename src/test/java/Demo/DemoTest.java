@@ -11,5 +11,9 @@ public void addTest()
 {
 	System.out.println("add");
 }
-	
+@Test(groups="regression")
+public void subTest()
+{
+	System.out.println("Subtract");
+}
 }
